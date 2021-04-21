@@ -10,7 +10,7 @@ The U.S.SBA was founded in 1953 on the principle of promoting and assisting smal
 
 ## Project Overview
 
-Using the partially provided dataset and by using Machine Learning Algorithms we can predict the risky customers.Additionally,using the results from the predictive modelling we can improve the potential rate of Loan Approval.
+Using the partially provided dataset along with Machine Learning Algorithms we can predict the risky customers.Additionally,using the results from the predictive modelling we can improve the potential rate of Loan Approval.
 
 ### Business Objective
 
