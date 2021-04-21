@@ -32,7 +32,7 @@ To Predict whether the customer will Default or Not.
 
 With an intention to help the approached customers who wish to start Small Business,SBA preliminarily checks upon the Bank provided customer information and checks for prior Number of Defaulters based on the Banking terms 'CHGOFF'(Charge-Off/Defaulted) and 'PIF'(Paid-In-Full) and updates the information to the Bank and encourages them to take the necessary steps before sanctioning the prescribed loan amount to be paid as partial or in full mode which is requested by the customer.
 
-As the customers are categorized into two classes Defaulters and Non-Defaulters,it relates to a Binary classification problem and the future model which will be built by using the partial dataset provided to us has to Identify and Predict the Maximum Number of Defaulters inorder to save the Bank from facing future risks.In a classification problem, we have to predict discrete values based on a given set of independent variable(s).
+As the customers are categorized into two classes Defaulters and Non-Defaulters,it relates to a Binary classification problem and the future model which will be built by using the partial dataset provided to us has to Identify and Predict the Maximum Number of Defaulters inorder to save the Bank from facing future risks and financial crisis.In a classification problem,we have to predict discrete values based on a given set of independent variable(s).
 
 ## Data Description
 
