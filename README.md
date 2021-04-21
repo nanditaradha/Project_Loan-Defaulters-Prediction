@@ -21,8 +21,8 @@ To Predict whether the customer will Default or Not.
 * Introduction
 * Data Description
 * Model Details
+* Model Evaluation
 * Model Prediction
-* Model Results
 * Model Deployment
 
 ## Introduction
@@ -112,19 +112,26 @@ Set of features:
 </div>
 
 ## Model Details
+
 I started this step by comparing the baseline model for a few algorithms which are Random Forest classification,KNN classification,Naive Bayes classification and Decision Tree classification.The baseline model then evaluated using recall and roc_auc metrics for 10 fold cross validation.And Finally Decision Tree Classifier was chosen for Model Building.
 
-## Model Results
+## Model Evaluation
 
 1.Random Forest : 89%
-
 2.KNN : 88%
-
 3.Naive Bayes : 49%
-
 4.Decision Tree : 89.2%
 
+## Model Predictions
 
+When the trained model was fitted on Test Dataset it was able to identify and predict the Defaulters.
+
+* Number of Defaulters : 11746
+* Number of Non-Defaulters : 33154
+
+## Model Deployment
+
+The built model after training and evaluation was deployed using #### Flask.Flask is a extensible micro web framework for building web applications in python.
 
 
 
