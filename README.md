@@ -138,7 +138,7 @@ pip install -r requirements.txt
 ```
 ## Model Deployment
 
-The built model after training and evaluation was deployed using Flask.Flask is a extensible micro web framework for building web applications in python.
+The built model after training and evaluation was deployed using Flask.Flask is an extensible micro web framework for building web applications in python.
 
 ## Technologies Used
 
