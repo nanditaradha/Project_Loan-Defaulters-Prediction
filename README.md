@@ -25,6 +25,7 @@ To Predict whether the customer will Default or Not.
 * Model Prediction
 * Installation
 * Model Deployment
+* Directory Tree
 * Technologies Used
 
 ## Introduction
@@ -39,7 +40,7 @@ We are provided with two Datasets one is Train and the other is Test.
 The Train Dataset contains 26 input variables with 150000 observations.
 The Test Dataset contains 25 variables with 45000 observations.
 
-* Train Dataset will be used for training the model,i.e. our model will learn from this Datset.It contains all the independent variables and the target variable.
+* Train Dataset will be used for training the model,i.e. our model will learn from this Dataset.It contains all the independent variables and the target variable.
 * Test Dataset contains all the independent variables,but not the target variable.We will apply the model to predict the target variable for the test data.
 
 Set of features:
@@ -138,7 +139,20 @@ pip install -r requirements.txt
 ```
 ## Model Deployment
 
-The built model after training and evaluation was deployed using Flask.Flask is an extensible micro web framework for building web applications in python.
+The built model after training and evaluation was deployed using Flask.Flask is a popular extensible micro web framework for building web applications in python.
+
+## Directory Tree 
+```
+├── templates 
+│   └── index.html
+├── app.py
+├── credit-card-default.csv
+├── credit_default_prediction.py
+├── model.pkl
+├── Procfile
+├── README.md
+└── requirements.txt
+```
 
 ## Technologies Used
 
