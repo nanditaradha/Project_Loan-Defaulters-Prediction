@@ -39,6 +39,12 @@ As the customers are categorized as Defaulters and Non-Defaulters,it relates to 
 
 ## Data Description
 
+We are provided with two Datasets one is Train and the other is Test.
+The Train Dataset contains 26 input variables where the dependent variable is to predict whether the customer is default or not.
+The Train Dataset also contains 150000 observations.
+The Test Dataset contains 25 variables where we need to findout the Default/Unknown variable.
+The Test Dataset also contains 45000 observations.
+
 Set of features:
  <p align="center">
    </p>
