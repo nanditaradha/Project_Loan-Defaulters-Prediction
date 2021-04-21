@@ -1,0 +1,522 @@
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style type="text/css">
+
+html {
+    zoom:100%;
+    -moz-transform: scale(0.8);
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+}
+
+
+
+#rcorners2 {
+  border-radius: 25px;
+  border: 2px solid #33CCFF;
+  padding: 213px; 
+  width: 100%;
+  height: 100%;  
+}
+#rcornersk {
+  border-radius: 25px;
+  border: 2px solid #33CCFF;
+  padding: 213px; 
+  width: 130%;
+  height: 192%;
+  margin-top: 1px;
+  margin-left: -194px;
+}
+
+
+
+.rcorners1
+{
+  border-radius: 9px;
+  border: 2px solid #33CCFF;
+  padding: 3px;
+   height: 52px;
+  padding-left: 1px;
+   float-left: 170px;
+  width:34%;
+  margin-top: 61px;
+  margin-left: -190px;
+  background-color:#78DDFF;
+  font-family: bold;
+  font-size: 20px;
+
+  
+}
+.div1{
+	margin-left:-110px;
+	margin-top:-249px;
+	font-size: 250%;
+	padding-top: 40px;
+
+}
+* {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+input[type=number], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+input[type=Date], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+#rcorners3 {
+  border-radius: 9px;
+  border: 2px solid #33CCFF;
+  padding: 3px;
+   height: 52px;
+  padding-left: 1px;
+   float-left: 170px;
+  width:35%;
+  margin-top: -207px;
+  margin-left: -190px;
+  background-color:#78DDFF;
+  font-family: bold;
+  font-size: 20px;
+
+ }
+
+.rcorners4{
+
+	border-radius: 9px;
+  border: 2px solid #33CCFF;
+  padding: 3px;
+   height: 54px;
+  padding-left: 1px;
+   float-left: 170px;
+  width:33%;
+  margin-top: 62px;
+  margin-left: -189px;
+  background-color:#78DDFF;
+  font-family: bold;
+  font-size: 20px;
+
+}
+.rcorners5{
+	border-radius: 9px;
+  border: 2px solid #33CCFF;
+  padding: -7px;
+   height: 56px;
+  padding-left: 1px;
+   float-left: 170px;
+  width:31%;
+  margin-top: 65px;
+  margin-left: -184px;
+  background-color:#78DDFF;
+  font-family: bold;
+  font-size: 20px;
+
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+  }
+</style>
+
+
+</head>
+<body>
+<div id=rcorners2>
+	<div class="div1">Banking Sector Loan Prediction</div>
+	<div id="rcornersk" >
+	
+    <div id="rcorners3">
+      <form action="/predict"method="POST">
+       <p>Client Info</p> 
+       
+           <input type="text"  name='PersonName'
+       cols="40" 
+       rows="5" 
+       style="width:200px; height:50px;margin-left: 0px;margin-right: 1px;
+       margin-top: -12px" 
+       placeholder="Name"/>
+              <input type="text" name='City'
+       cols="40" 
+       rows="5" 
+       style="width:200px; height:50px;margin-left: 202px;margin-right: -4px;margin-top: -50px;
+           margin-bottom: 1px;" 
+       placeholder="City"/>
+
+
+            <input type="text" name='State'
+       cols="40" 
+       rows="5" 
+       style="width:100px; height:50px;margin-left: 403px;margin-right: 42px;
+       margin-top: -51px;
+           margin-bottom: 1px;" 
+       placeholder="State" />
+
+
+            <input type="Number" name='Zip'
+       cols="40" 
+       rows="5" 
+       style="width:200px; height:50px;margin-left: 505px;margin-right: 1px;
+       margin-top: -51px;
+           margin-bottom: 1px;" 
+       placeholder="Zip" />
+
+
+            <input type="text" name='Bank'
+       cols="40" 
+       rows="5" 
+       style="width:200px; height:50px;margin-left: 707px;margin-right: 1px;
+       margin-top: -51px;
+           margin-bottom: -11px;" 
+       placeholder="Bank" />
+
+       
+          </div>
+        <div class="rcorners1">
+        	<p>Bank Info:</p>
+                  
+        <input type="text" name='BankState'
+                cols="40" 
+                 rows="5" 
+          style="width:200px; height:50px;margin-left: 5px;margin-right: 1px;
+             margin-top: -12px;
+           margin-bottom: -11px;" 
+       placeholder="Bank-State" />
+
+            <input type="Number" name='CCSC'
+       cols="40" 
+       rows="5" 
+       style="width:200px; height:50px;margin-left: 231px;margin-right: 6px;margin-top: -39px;
+                  margin-bottom: -50px;" 
+       placeholder="CCSC" />
+
+           
+         </div> 
+        <div class="rcorners4">
+        	<p>Other Detail of Co.:</p>
+
+               <input type="Number" name='NoEmp'
+       cols="40" 
+       rows="5" 
+       style="width:136px; height:50px;margin-left: 6px;margin-right: 18px;
+       margin-top: -10px;
+       margin-bottom: 17px" 
+       placeholder="NoEmp" />
+
+            <input type="Number"    name='NewExist'
+       cols="40" 
+       rows="5" 
+       style="width:165px; height:50px;margin-left: 157px;margin-right: 19px;
+       margin-top: -67px;
+       margin-bottom: 1px"
+       placeholder="NewExist" />
+
+            <input type="Number"  name='CreateJob'
+       cols="40" 
+       rows="5" 
+       style="width:100px; height:50px;margin-left: 332px;margin-right: 1px;
+       margin-top: -67px;
+       margin-bottom: 1px"
+       placeholder="CreateJob" />
+
+            <input type="Number" name='RetainedJob'
+       cols="40" 
+       rows="5" 
+       style="width:210px; height:50px;margin-left: 434px;margin-right: 1px;
+       margin-top: -67px;
+       margin-bottom: 1px"
+       placeholder="RetainedJob" />
+            <input type="Number"  name='FranchiseCode'
+       cols="40" 
+       rows="5" 
+       style="width:100px; height:50px;margin-left: 646px;margin-right: 1px;
+       margin-top: -67px;
+       margin-bottom: 1px"
+       placeholder="FranchiseCode" />
+
+            <input type="Number"  name='UrbanRural'
+       cols="40" 
+       rows="5" 
+       style="width:100px; height:50px;margin-left: 748px;margin-right: 1px;
+       margin-top: -67px;
+       margin-bottom: 1px"
+       placeholder="UrbanRural"/>
+
+
+              <select name='RevLineCr'
+              required 
+       cols="40" 
+       rows="5" 
+       style="width:150px; height:50px;margin-left: 1005px;margin-right: 1px;
+       margin-top: -67px;
+       margin-bottom: 1px">
+       <option value=""disabled selected hidden>Choose RevLineCr</option>
+       <option value="Y">Y</option>
+       <option value="N">N</option>
+   </select>
+      
+      <select name='LowDoc'required
+       cols="40" 
+       rows="5" 
+       style="width:150px; height:50px;margin-left: 851px;margin-right: 1px;
+       margin-top: -67px;
+       margin-bottom: 1px">
+       <option value=""disabled selected hidden>Choose LowDoc</option>
+       <option value="Y">Y</option>
+       <option value="N">N</option>
+   </select>
+   </div>
+
+      <div class="rcorners5">
+          <p>Loan Information:</p>
+                  
+        
+            <input type="text" name='ApprovalFY'
+             placeholder="ApprovalFY"
+                    onfocus="(this.type='date')
+       cols="40" 
+       rows="5" 
+       style="width:134px; height:50px;margin-left: 2px;margin-right: 6px;margin-top: -4px;
+                  margin-bottom: -50px;" 
+       placeholder="ApprovalFY" />
+
+            <input type="Number" name='Term'
+       cols="40" 
+       rows="5" 
+       style="width:70px; height:50px;margin-left: 138px;margin-right: 1px;
+           margin-top: -4px;
+           margin-bottom: -1px;" 
+       placeholder="Term" />   
+     
+      
+       <input type="Number" name='DisbursementGross'
+       cols="40" 
+       rows="5" 
+       style="width:164px; height:50px;margin-left: 210px;margin-right:-3px;
+           margin-top: -49px;
+           margin-bottom: -1px;" 
+       placeholder="DisbursementGross" />   
+        <input type="Number" name='BalanceGross'
+       cols="40" 
+       rows="5" 
+       style="width:172px; height:50px;margin-left: 376px;margin-right: 1px;
+           margin-top: -49px;
+           margin-bottom: -1px;" 
+       placeholder="BalanceGross" />
+
+    <input type="text" name='ChgOffPrinGr'
+       cols="40" 
+       rows="5" 
+       style="width:200px; height:50px;margin-left: 549px;margin-right: 1px;
+           margin-top: -49px;
+           margin-bottom: -1px;" 
+       placeholder="ChgOffPrinGr" />
+
+    <input type="Number" name='GrAppv'
+       cols="40" 
+       rows="5" 
+       style="width:161px; height:50px;margin-left: 751px;margin-right: 1px;
+           margin-top: -49px;
+           margin-bottom: -1px;" 
+       placeholder="GrAppv" /> 
+
+     <input type="Number" name='SbaAppv'
+       cols="40" 
+       rows="5" 
+       style="width:173px; height:50px;margin-left:915px;margin-right: 11px;
+           margin-top: -49px;
+           margin-bottom: -1px;" 
+       placeholder="SbaAppv" />  
+        <br>
+        <br>
+
+       <label for="ApprovalDate" style="margin-left: 1px ;margin-top: 1px ;margin-bottom:1px ;margin-right:1px";>Enter ApprovalDate:</label> 
+      <input type="Date" name='ApprovalDate'
+                 placeholder="ApprovalDate:dd-mm-yy"
+                    onfocus="(this.type='date')
+                  cols="40" 
+                 rows="5" 
+          style="width:134px; height:35px;margin-left: 174px;margin-right: 1px;
+             margin-top: -27px;
+           margin-bottom: -11px;" 
+       placeholder="ApprovalDate"/>
+       <br>
+       <br>
+
+       <label for="DisbursementDate" style="margin-left: 1px;margin-top: 1px";>Enter DisbursementDate:</label> 
+      <input type="Date" name='DisbursementDate'
+                 placeholder="DisbursementDate"
+                    onfocus="(this.type='date')
+                  cols="40" 
+                 rows="5" 
+          style="width:134px; height:33px;margin-left: 210px;margin-right: 1px;
+             margin-top: -29px;
+           margin-bottom: -11px;"/>
+         <br>
+         <br>
+
+       <label for="ChgOffDate" style="margin-left: 1px;margin-top: 1px";>Enter ChgOffDate:</label> 
+      <input type="Date" name='ChgOffDate'
+                 placeholder="ChgOffDate"
+                    onfocus="(this.type='date')
+                  cols="40" 
+                 rows="5" 
+          style="width:134px; height:33px;margin-left: 162px;margin-right: 1px;
+             margin-top: -30px;
+           margin-bottom: -11px;" 
+       placeholder="ChgOffDate"/>
+
+
+     
+      
+        <button cols="40" 
+       rows="5" 
+       style="border-radius:25px;width:150px; height:35px;margin-left: 276px;margin-right: 26px;
+       margin-top: 23px;
+       margin-bottom: 120px;type="submit" value="Submit">Submit</button>
+
+
+
+     </form>
+</div>
+</div>
+
+</div>
+
+
+
+
+   </div>
+
+</div>	
+
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
