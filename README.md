@@ -2,7 +2,7 @@
 
 ## Description And Background
 
-The dataset provided for the project have the similar features as that to U.S.Small Business Administration(SBA).
+The Dataset provided for the project have the similar features as that to U.S.Small Business Administration(SBA).
 
 ## About SBA
 
@@ -10,7 +10,7 @@ The U.S.SBA was founded in 1953 on the principle of promoting and assisting smal
 
 ## Project Overview
 
-Using the partially provided dataset and by using Machine Learning Algorithms we can predict the risky customers.Additionally,using the results from the predictive modelling we can improve the potential rate of Loan Approval..
+Using the partially provided dataset and by using Machine Learning Algorithms we can predict the risky customers.Additionally,using the results from the predictive modelling we can improve the potential rate of Loan Approval.
 
 ### Business Objective
 
@@ -29,7 +29,7 @@ To Predict whether the customer will Default or Not.
 
 ## Introduction
 
-With an intention to help the approached customers who wish to start Small Business,SBA preliminary checks upon the Bank provided customer information and checks for prior Number of Defaulters based on the Banking terms 'CHGOFF'(charge-off/Defaulted) and 'PIF'(paid-in-full) and updates the information to the Bank and encourages them to take the necessary steps before sanctioning the prescribed loan amount to be paid as partial or in full mode which is requested by the customer.
+With an intention to help the approached customers who wish to start Small Business,SBA preliminarily checks upon the Bank provided customer information and checks for prior Number of Defaulters based on the Banking terms 'CHGOFF'(Charge-Off/Defaulted) and 'PIF'(Paid-In-Full) and updates the information to the Bank and encourages them to take the necessary steps before sanctioning the prescribed loan amount to be paid as partial or in full mode which is requested by the customer.
 
 As the customers are categorized into two classes Defaulters and Non-Defaulters,it relates to a Binary classification problem and the future model which will be built by using the partial dataset provided to us has to Identify and Predict the Maximum Number of Defaulters inorder to save the Bank from facing future risks.In a classification problem, we have to predict discrete values based on a given set of independent variable(s).
 
@@ -115,7 +115,7 @@ Set of features:
 
 ## Model Details
 
-I started this step by comparing the baseline model for a few algorithms which are Random Forest classification,KNN classification,Naive Bayes classification and Decision Tree classification.The baseline model then evaluated using recall and roc_auc metrics for 10 fold cross validation.And Finally Decision Tree Classifier was chosen for Model Building.
+I started this step by comparing the baseline model for a few algorithms which are Random Forest classification,KNN classification,Naive Bayes classification and Decision Tree classification.The baseline model then evaluated using recall and roc_auc metrics for 10 fold cross validation.And Finally Decision Tree Classifier was chosen for Model Building.As the Train Dataset is imbalanced in class with respect to Dependent Target variable(MIS_Status),SMOTE with minority oversampling technique was employed to handle the class imbalance in the said Target variable.[reference here for class imbalance](https://towardsdatascience.com/methods-for-dealing-with-imbalanced-data-5b761be45a18)
 
 ## Model Evaluation
 
