@@ -117,10 +117,10 @@ I started this step by comparing the baseline model for a few algorithms which a
 
 ## Model Evaluation
 
-1.Random Forest : 89%
-2.KNN : 88%
-3.Naive Bayes : 49%
-4.Decision Tree : 89.2%
+1. Random Forest : 89%
+2. KNN : 88%
+3. Naive Bayes : 49%
+4. Decision Tree : 89.2%
 
 ## Model Predictions
 
@@ -131,7 +131,7 @@ When the trained model was fitted on Test Dataset it was able to identify and pr
 
 ## Model Deployment
 
-The built model after training and evaluation was deployed using #### Flask.Flask is a extensible micro web framework for building web applications in python.
+The built model after training and evaluation was deployed using Flask.Flask is a extensible micro web framework for building web applications in python.
 
 
 
