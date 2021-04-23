@@ -1,8 +1,8 @@
 # Project_Loan-Defaulters-Prediction
 
-## Description And Background
+## Description & Background
 
-The Dataset provided for the project have the similar features as that to U.S.Small Business Administration(SBA).
+The Dataset provided for the project have the all the similar features as that to U.S.Small Business Administration(SBA).
 
 ## About SBA
 
