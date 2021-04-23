@@ -139,7 +139,11 @@ pip install -r requirements.txt
 ```
 ## Model Deployment
 
-The built model after training and evaluation was deployed using Flask.Flask is a popular extensible micro web framework for building web applications in python.
+The built model after training and evaluation was deployed as an app on Heroku Platform. 
+
+Create a new repository on [GitHub](https://github.com/) and upload the project.
+
+Follow the instruction given on [Heroku Documentation](https://devcenter.heroku.com/articles/getting-started-with-python) to deploy a web app.
 
 ## Directory Tree 
 ```
