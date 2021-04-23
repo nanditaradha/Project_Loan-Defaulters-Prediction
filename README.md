@@ -129,7 +129,7 @@ Set of features:
 
 ## Model Predictions
 
-When the trained model was fitted on Test Dataset it was able to identify and predict the Defaulters.
+When the trained model was fitted on Test Dataset it was able to identify and predict the number of Defaulters.
 
 * Number of Defaulters(CHG-OFF) : 11746
 * Number of Non-Defaulters(PIF) : 33154
