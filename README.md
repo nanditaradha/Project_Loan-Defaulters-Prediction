@@ -143,7 +143,7 @@ The built model after training and evaluation was deployed as an app on Heroku P
 
 Create a new repository on [GitHub](https://github.com/) and upload the project.
 
-Follow the instruction given on [Heroku Documentation](https://devcenter.heroku.com/articles/getting-started-with-python) to deploy a web app.
+Follow the instructions given on [Heroku Documentation](https://devcenter.heroku.com/articles/getting-started-with-python) to deploy a web app.
 
 ## Directory Tree 
 ```
