@@ -116,7 +116,7 @@ Set of features:
 
 ## Model Details
 
-Weight Of Evidence(WOE) and Information values(IV) have helped me to chose a set of features that can be used for model building.[Refer for WOE & IV](https://www.listendata.com/2015/03/weight-of-evidence-woe-and-information.html)
+Weight Of Evidence(WOE) and Information values(IV) have helped me to chose a set of features that can be used for model building.[WOE & IV](https://www.listendata.com/2015/03/weight-of-evidence-woe-and-information.html)
 I started this step by comparing the baseline model for a few algorithms which are Random Forest classification,KNN classification,Naive Bayes classification and Decision Tree classification.The baseline model then evaluated using recall and roc_auc metrics for 10 fold cross validation.And Finally Decision Tree Classifier was chosen for Model Building.As the Train Dataset is imbalanced in class with respect to Dependent Target variable(MIS_Status),SMOTE with minority oversampling technique was employed to handle the class imbalance in the said Target variable.[reference for class imbalance](https://towardsdatascience.com/methods-for-dealing-with-imbalanced-data-5b761be45a18)
 
 ## Model Evaluation
