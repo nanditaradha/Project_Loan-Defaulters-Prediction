@@ -141,7 +141,7 @@ pip install -r requirements.txt
 ```
 ## Model Deployment
 
-The built model after training and evaluation was deployed as an app on Heroku Platform. 
+The built model after training and evaluation was deployed using Flask, as an app on Heroku Platform. 
 
 Create a new repository on [GitHub](https://github.com/) and upload the project.
 
