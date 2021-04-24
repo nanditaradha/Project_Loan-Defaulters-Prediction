@@ -170,7 +170,7 @@ Follow the instructions given in [Heroku Documentation](https://devcenter.heroku
 
 [<img target="_blank" src="https://jupyter.org/assets/nav_logo.svg" width=150>](https://jupyter.org)
 
-
+[<img target="_blank" src="https://www.google.co.in/search?q=heroku+icon+png&tbm=isch&ved=2ahUKEwiGqfbT3JbwAhWVReUKHSvNAKYQ2-cCegQIABAA&oq=heroku+icon+png&gs_lcp=CgNpbWcQA1AAWABgsvwmaABwAHgAgAEAiAEAkgEAmAEAqgELZ3dzLXdpei1pbWc&sclient=img&ei=zvmDYIaKGJWLlQermoOwCg&bih=625&biw=1366#imgrc=ptP_w7ArSKagnM" width=200>]
 
 
 
