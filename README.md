@@ -6,11 +6,11 @@ The Dataset provided for the project have the all the similar features as that t
 
 ## About SBA
 
-The U.S.SBA was founded in 1953 on the principle of promoting and assisting small enterprises in the U.S. credit market (SBA Overview and History,US Small Business Administration (2015)).Small businesses have been a primary source of job creation in the United States; therefore,fostering small business formation and growth has social benefits by creating job opportunities and reducing unemployment.One way SBA assists these small business enterprises is through a loan guarantee program which is designed to encourage banks to grant loans to small businesses.SBA acts much like an insurance provider to reduce the risk for a bank by taking on some of the risk through guaranteeing a portion of the loan.In the case that a loan goes into default,SBA then covers the amount they guaranteed.There have been many success stories of start-ups receiving SBA loan guarantees such as FedEx and Apple Computer.However,there have also been stories of small businesses and/or start-ups that have defaulted on their SBA-guaranteed loans.The rate of default on these loans has been a source of controversy for decades.[reference](https://www.tandfonline.com/doi/full/10.1080/10691898.2018.1434342)
+The U.S.SBA was founded in 1953 on the principle of promoting and assisting small enterprises in the U.S. credit market (SBA Overview and History, US Small Business Administration (2015)). Small businesses have been a primary source of job creation in the United States; therefore,fostering small business formation and growth has social benefits by creating job opportunities and reducing unemployment. One way SBA assists these small business enterprises is through a loan guarantee program which is designed to encourage banks to grant loans to small businesses.SBA acts much like an insurance provider to reduce the risk for a bank by taking on some of the risk through guaranteeing a portion of the loan. In the case that a loan goes into default,SBA then covers the amount they guaranteed. There have been many success stories of start-ups receiving SBA loan guarantees such as FedEx and Apple Computer. However, there have also been stories of small businesses and/or start-ups that have defaulted on their SBA-guaranteed loans. The rate of default on these loans has been a source of controversy for decades.[reference](https://www.tandfonline.com/doi/full/10.1080/10691898.2018.1434342)
 
 ## Project Overview
 
-Using the partially provided dataset along with Machine Learning Algorithms we can predict the risky customers.Additionally,using the results from the predictive modelling we can improve the potential rate of Loan Approval.
+Using the partially provided dataset along with Machine Learning Algorithms we can predict the risky customers. Additionally, using the results from the predictive modelling we can improve the potential rate of Loan Approval.
 
 ### Business Objective
 
@@ -30,9 +30,9 @@ To Predict whether the customer will Default or Not.
 
 ## Introduction
 
-With an intention to help the approached customers who wish to start Small Business,SBA preliminarily checks upon the Bank provided customer information and checks for prior Number of Defaulters based on the Banking terms 'CHGOFF'(Charge-Off/Defaulted) and 'PIF'(Paid-In-Full) and updates the information to the Bank and encourages them to take the necessary steps before sanctioning the prescribed loan amount to be paid as partial or in full mode which is requested by the customer.
+With an intention to help the approached customers who wish to start Small Business, SBA preliminarily checks upon the Bank provided customer information and checks for prior Number of Defaulters based on the Banking terms 'CHGOFF'(Charge-Off/Defaulted) and 'PIF'(Paid-In-Full) and updates the information to the Bank and encourages them to take the necessary steps before sanctioning the prescribed loan amount to be paid as partial or in full mode which is requested by the customer.
 
-As the customers are categorized into two classes Defaulters and Non-Defaulters,it relates to a Binary classification problem and the future model which will be built by using the partial dataset provided to us has to Identify and Predict the Maximum Number of Defaulters inorder to save the Bank from facing future risks and financial crisis.In a classification problem,we have to predict discrete values based on a given set of independent variable(s).
+As the customers are categorized into two classes Defaulters and Non-Defaulters, it relates to a Binary classification problem and the future model which will be built by using the partial dataset provided to us has to Identify and Predict the Maximum Number of Defaulters inorder to save the Bank from facing future risks and financial crisis. In a classification problem, we have to predict discrete values based on a given set of independent variable(s).
 
 ## Data Description
 
@@ -40,8 +40,8 @@ We are provided with two Datasets one is Train and the other is Test.
 The Train Dataset contains 26 input variables with 150000 observations.
 The Test Dataset contains 25 variables with 45000 observations.
 
-* Train Dataset will be used for training the model,i.e. our model will learn from this Dataset.It contains all the independent variables and the target variable.
-* Test Dataset contains all the independent variables,but not the target variable.We will apply the model to predict the target variable for the test data.
+* Train Dataset will be used for training the model, i.e. our model will learn from this Dataset. It contains all the independent variables and the target variable.
+* Test Dataset contains all the independent variables, but not the target variable.We will apply the model to predict the target variable for the test data.
 
 Set of features:
  <p align="center">
@@ -116,9 +116,9 @@ Set of features:
 
 ## Model Details
 
-* Based on the Interpretation of Weight Of Evidence(WOE) and Information values(IV),I was able to chose a set of features that can be used for model building.[reference for WOE & IV](https://www.listendata.com/2015/03/weight-of-evidence-woe-and-information.html)
-* As the Train Dataset is imbalanced in class with respect to Dependent Target variable(MIS_Status),SMOTE with minority oversampling technique was employed to handle the class imbalance in the said Target variable.[reference for Class Imbalance](https://towardsdatascience.com/methods-for-dealing-with-imbalanced-data-5b761be45a18)
-* I started this step by comparing the baseline model for a few algorithms which are Random Forest classification,KNN classification,Naive Bayes classification and Decision Tree classification.The baseline model then evaluated using precision, recall and roc_auc metrics for 10 fold cross validation.And Finally Decision Tree Classifier was chosen for Model Building.
+* Based on the Interpretation of Weight Of Evidence(WOE) and Information values(IV), I was able to chose a set of features that can be used for model building.[reference for WOE & IV](https://www.listendata.com/2015/03/weight-of-evidence-woe-and-information.html)
+* As the Train Dataset is imbalanced in class with respect to Dependent Target variable(MIS_Status), SMOTE with minority oversampling technique was employed to handle the class imbalance in the said Target variable.[reference for Class Imbalance](https://towardsdatascience.com/methods-for-dealing-with-imbalanced-data-5b761be45a18)
+* I started this step by comparing the baseline model for a few algorithms which are Random Forest classification,KNN classification, Naive Bayes classification and Decision Tree classification. The baseline model then evaluated using precision, recall and roc_auc metrics for 10 fold cross validation. And Finally Decision Tree Classifier was chosen for Model Building.
 
 ## Model Evaluation
 
